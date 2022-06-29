@@ -1,0 +1,56 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from sensor_msgs:msg\JoyFeedback.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_H
+#define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL sensor_msgs__msg__JoyFeedback__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+const void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL sensor_msgs__msg__JoyFeedback__get_typesupport();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL sensor_msgs__msg__JoyFeedback__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL sensor_msgs__msg__JoyFeedback__destroy_native_message(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+uint8_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL sensor_msgs__msg__JoyFeedback__read_field_type(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+void sensor_msgs__msg__JoyFeedback__write_field_type(void *, uint8_t);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+uint8_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL sensor_msgs__msg__JoyFeedback__read_field_id(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+void sensor_msgs__msg__JoyFeedback__write_field_id(void *, uint8_t);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+float RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL sensor_msgs__msg__JoyFeedback__read_field_intensity(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+void sensor_msgs__msg__JoyFeedback__write_field_intensity(void *, float);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_CDECL sensor_msgs__msg__JoyFeedback__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOYFEEDBACK_H

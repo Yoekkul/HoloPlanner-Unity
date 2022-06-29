@@ -1,0 +1,72 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from stereo_msgs:msg\DisparityImage.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_H
+#define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_IMPORT
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_IMPORT
+    #define RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void * RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__create_native_message();
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+const void * RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__get_typesupport();
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void * RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__create_native_message();
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__destroy_native_message(void *);
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void * RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__get_field_header_HANDLE(void *);
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void * RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__get_field_image_HANDLE(void *);
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+float RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__read_field_f(void *);
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void stereo_msgs__msg__DisparityImage__write_field_f(void *, float);
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+float RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__read_field_t(void *);
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void stereo_msgs__msg__DisparityImage__write_field_t(void *, float);
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void * RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__get_field_valid_window_HANDLE(void *);
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+float RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__read_field_min_disparity(void *);
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void stereo_msgs__msg__DisparityImage__write_field_min_disparity(void *, float);
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+float RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__read_field_max_disparity(void *);
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void stereo_msgs__msg__DisparityImage__write_field_max_disparity(void *, float);
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+float RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__read_field_delta_d(void *);
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void stereo_msgs__msg__DisparityImage__write_field_delta_d(void *, float);
+
+RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_EXPORT
+void RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_CDECL stereo_msgs__msg__DisparityImage__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_STEREO_MSGS_STEREO_MSGS_MSG_DISPARITYIMAGE_H

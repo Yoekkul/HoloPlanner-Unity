@@ -1,0 +1,24 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+RWStructuredBuffer<float> _Positions;
+
+uint _ResolutionX;
+uint _ResolutionY;
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)    //Id of the calling thread 
+{
+    // TODO: insert actual code here!
+
+    Result[id.xy] = float4(id.x & id.y, (id.x & 15)/15.0, (id.y & 15)/15.0, 0.0);
+}
+
+void SetPosition(uint3 id, float3 position) {
+	if (id.x < _ResolutionX && id.y < _ResolutionY) {
+		_Positions[id.x + id.y * _ResolutionY] = position;
+	}
+}

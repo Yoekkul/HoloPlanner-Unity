@@ -1,0 +1,73 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from rcl_interfaces:msg\Log.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_H
+#define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_IMPORT
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_IMPORT
+    #define RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void * RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__create_native_message();
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+const void * RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__get_typesupport();
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void * RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__create_native_message();
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__destroy_native_message(void *);
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void * RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__get_field_stamp_HANDLE(void *);
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+uint8_t RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__read_field_level(void *);
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void rcl_interfaces__msg__Log__write_field_level(void *, uint8_t);
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+char * RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__read_field_name(void *);
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void rcl_interfaces__msg__Log__write_field_name(void *, char *);
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+char * RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__read_field_msg(void *);
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void rcl_interfaces__msg__Log__write_field_msg(void *, char *);
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+char * RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__read_field_file(void *);
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void rcl_interfaces__msg__Log__write_field_file(void *, char *);
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+char * RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__read_field_function(void *);
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void rcl_interfaces__msg__Log__write_field_function(void *, char *);
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+uint32_t RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__read_field_line(void *);
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void rcl_interfaces__msg__Log__write_field_line(void *, uint32_t);
+
+RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_EXPORT
+void RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_CDECL rcl_interfaces__msg__Log__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_RCL_INTERFACES_RCL_INTERFACES_MSG_LOG_H

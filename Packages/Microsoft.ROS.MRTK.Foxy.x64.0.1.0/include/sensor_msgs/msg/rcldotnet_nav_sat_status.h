@@ -1,0 +1,51 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from sensor_msgs:msg\NavSatStatus.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_H
+#define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL sensor_msgs__msg__NavSatStatus__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+const void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL sensor_msgs__msg__NavSatStatus__get_typesupport();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL sensor_msgs__msg__NavSatStatus__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL sensor_msgs__msg__NavSatStatus__destroy_native_message(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+int8_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL sensor_msgs__msg__NavSatStatus__read_field_status(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+void sensor_msgs__msg__NavSatStatus__write_field_status(void *, int8_t);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+uint16_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL sensor_msgs__msg__NavSatStatus__read_field_service(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+void sensor_msgs__msg__NavSatStatus__write_field_service(void *, uint16_t);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_CDECL sensor_msgs__msg__NavSatStatus__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATSTATUS_H

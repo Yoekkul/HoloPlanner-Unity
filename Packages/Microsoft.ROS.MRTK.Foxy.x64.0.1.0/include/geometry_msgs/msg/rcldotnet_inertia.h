@@ -1,0 +1,78 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from geometry_msgs:msg\Inertia.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_H
+#define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_IMPORT
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_IMPORT
+    #define RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void * RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__create_native_message();
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+const void * RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__get_typesupport();
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void * RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__create_native_message();
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__destroy_native_message(void *);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+double RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__read_field_m(void *);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void geometry_msgs__msg__Inertia__write_field_m(void *, double);
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void * RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__get_field_com_HANDLE(void *);
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+double RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__read_field_ixx(void *);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void geometry_msgs__msg__Inertia__write_field_ixx(void *, double);
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+double RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__read_field_ixy(void *);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void geometry_msgs__msg__Inertia__write_field_ixy(void *, double);
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+double RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__read_field_ixz(void *);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void geometry_msgs__msg__Inertia__write_field_ixz(void *, double);
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+double RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__read_field_iyy(void *);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void geometry_msgs__msg__Inertia__write_field_iyy(void *, double);
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+double RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__read_field_iyz(void *);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void geometry_msgs__msg__Inertia__write_field_iyz(void *, double);
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+double RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__read_field_izz(void *);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void geometry_msgs__msg__Inertia__write_field_izz(void *, double);
+
+RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_EXPORT
+void RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_CDECL geometry_msgs__msg__Inertia__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_GEOMETRY_MSGS_GEOMETRY_MSGS_MSG_INERTIA_H

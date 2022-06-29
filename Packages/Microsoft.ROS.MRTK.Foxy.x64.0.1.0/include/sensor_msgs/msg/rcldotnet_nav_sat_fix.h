@@ -1,0 +1,75 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from sensor_msgs:msg\NavSatFix.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_H
+#define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+const void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__get_typesupport();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__destroy_native_message(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__get_field_header_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__get_field_status_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__read_field_latitude(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void sensor_msgs__msg__NavSatFix__write_field_latitude(void *, double);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__read_field_longitude(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void sensor_msgs__msg__NavSatFix__write_field_longitude(void *, double);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__read_field_altitude(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void sensor_msgs__msg__NavSatFix__write_field_altitude(void *, double);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__get_field_position_covariance_message(void *, int);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+int RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__getsize_array_field_position_covariance_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void sensor_msgs__msg__NavSatFix__write_field_position_covariance(void *, double);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__read_field_position_covariance(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+uint8_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__read_field_position_covariance_type(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void sensor_msgs__msg__NavSatFix__write_field_position_covariance_type(void *, uint8_t);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_CDECL sensor_msgs__msg__NavSatFix__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_NAVSATFIX_H

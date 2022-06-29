@@ -1,0 +1,53 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from sensor_msgs:msg\Temperature.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_H
+#define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL sensor_msgs__msg__Temperature__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+const void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL sensor_msgs__msg__Temperature__get_typesupport();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL sensor_msgs__msg__Temperature__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL sensor_msgs__msg__Temperature__destroy_native_message(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL sensor_msgs__msg__Temperature__get_field_header_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL sensor_msgs__msg__Temperature__read_field_temperature(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+void sensor_msgs__msg__Temperature__write_field_temperature(void *, double);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL sensor_msgs__msg__Temperature__read_field_variance(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+void sensor_msgs__msg__Temperature__write_field_variance(void *, double);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_CDECL sensor_msgs__msg__Temperature__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TEMPERATURE_H

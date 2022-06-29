@@ -1,0 +1,63 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from sensor_msgs:msg\Joy.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_H
+#define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+const void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__get_typesupport();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__destroy_native_message(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__get_field_header_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__get_field_axes_message(void *, int);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+int RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__getsize_sequence_field_axes_message();
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+int RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__resize_sequence_field_axes_message(void *, int);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void sensor_msgs__msg__Joy__write_field_axes(void *, float);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+float RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__read_field_axes(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__get_field_buttons_message(void *, int);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+int RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__getsize_sequence_field_buttons_message();
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+int RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__resize_sequence_field_buttons_message(void *, int);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void sensor_msgs__msg__Joy__write_field_buttons(void *, int32_t);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+int32_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__read_field_buttons(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_CDECL sensor_msgs__msg__Joy__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_JOY_H

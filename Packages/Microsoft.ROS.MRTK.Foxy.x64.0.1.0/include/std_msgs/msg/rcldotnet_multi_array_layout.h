@@ -1,0 +1,52 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from std_msgs:msg\MultiArrayLayout.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_H
+#define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_IMPORT
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_IMPORT
+    #define RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+void * RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__create_native_message();
+
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+const void * RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__get_typesupport();
+
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+void * RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__create_native_message();
+
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+void RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__destroy_native_message(void *);
+
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+void * RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__get_field_dim_message(void *, int);
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+int RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__getsize_sequence_field_dim_message();
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+int RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__resize_sequence_field_dim_message(void *, int);
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+uint32_t RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__read_field_data_offset(void *);
+
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+void std_msgs__msg__MultiArrayLayout__write_field_data_offset(void *, uint32_t);
+
+RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_EXPORT
+void RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_CDECL std_msgs__msg__MultiArrayLayout__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_STD_MSGS_STD_MSGS_MSG_MULTIARRAYLAYOUT_H

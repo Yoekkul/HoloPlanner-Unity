@@ -1,0 +1,79 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from sensor_msgs:msg\Imu.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_H
+#define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+const void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__get_typesupport();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__destroy_native_message(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__get_field_header_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__get_field_orientation_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__get_field_orientation_covariance_message(void *, int);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+int RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__getsize_array_field_orientation_covariance_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void sensor_msgs__msg__Imu__write_field_orientation_covariance(void *, double);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__read_field_orientation_covariance(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__get_field_angular_velocity_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__get_field_angular_velocity_covariance_message(void *, int);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+int RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__getsize_array_field_angular_velocity_covariance_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void sensor_msgs__msg__Imu__write_field_angular_velocity_covariance(void *, double);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__read_field_angular_velocity_covariance(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__get_field_linear_acceleration_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__get_field_linear_acceleration_covariance_message(void *, int);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+int RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__getsize_array_field_linear_acceleration_covariance_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void sensor_msgs__msg__Imu__write_field_linear_acceleration_covariance(void *, double);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+double RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__read_field_linear_acceleration_covariance(void *);
+
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_CDECL sensor_msgs__msg__Imu__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_IMU_H

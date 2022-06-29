@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RosConnectionExperiments.unity
+    guid: 262c1884a1a0e7146ab62b53c52f65ad
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8712e05a25f46d44c817f01dff1676d5, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: bf6f1c464fcc846418c0b8acc839e571, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 6e35014abb04bfb45bc0a59a21dcc15c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9fd2a583c19a06a4099f2ae73cb7ef97, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: bbeeeeba8b532d7468bbedcdd1e3e715, type: 2}

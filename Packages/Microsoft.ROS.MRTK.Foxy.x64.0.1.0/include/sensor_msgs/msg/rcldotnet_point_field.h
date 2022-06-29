@@ -1,0 +1,61 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from sensor_msgs:msg\PointField.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_H
+#define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+const void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__get_typesupport();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__destroy_native_message(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+char * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__read_field_name(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+void sensor_msgs__msg__PointField__write_field_name(void *, char *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+uint32_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__read_field_offset(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+void sensor_msgs__msg__PointField__write_field_offset(void *, uint32_t);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+uint8_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__read_field_datatype(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+void sensor_msgs__msg__PointField__write_field_datatype(void *, uint8_t);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+uint32_t RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__read_field_count(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+void sensor_msgs__msg__PointField__write_field_count(void *, uint32_t);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_CDECL sensor_msgs__msg__PointField__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_POINTFIELD_H

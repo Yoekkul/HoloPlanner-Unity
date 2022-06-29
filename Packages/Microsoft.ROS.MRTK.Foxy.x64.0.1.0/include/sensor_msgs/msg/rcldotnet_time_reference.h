@@ -1,0 +1,50 @@
+// generated from rosidl_generator_dotnet/resource/idl.h.em
+// with input from sensor_msgs:msg\TimeReference.idl
+// generated code does not contain a copyright notice
+#ifndef RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_H
+#define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_H
+
+#if defined(WIN32)
+    //  Microsoft
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT __declspec(dllexport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_IMPORT __declspec(dllimport)
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL __cdecl
+#elif defined(__GNUC__)
+    //  GCC
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT __attribute__((visibility("default")))
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL __attribute__((__cdecl__))
+#else
+    //  do nothing and hope for the best?
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_IMPORT
+    #define RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL
+    #pragma warning Unknown dynamic link import/export semantics.
+#endif
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL sensor_msgs__msg__TimeReference__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+const void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL sensor_msgs__msg__TimeReference__get_typesupport();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL sensor_msgs__msg__TimeReference__create_native_message();
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL sensor_msgs__msg__TimeReference__destroy_native_message(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL sensor_msgs__msg__TimeReference__get_field_header_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+void * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL sensor_msgs__msg__TimeReference__get_field_time_ref_HANDLE(void *);
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+char * RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL sensor_msgs__msg__TimeReference__read_field_source(void *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+void sensor_msgs__msg__TimeReference__write_field_source(void *, char *);
+
+RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_EXPORT
+void RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_CDECL sensor_msgs__msg__TimeReference__destroy_native_message(void * raw_ros_message);
+
+#endif // RCLDOTNET_SENSOR_MSGS_SENSOR_MSGS_MSG_TIMEREFERENCE_H
