@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RosConnectionExperiments.unity
     guid: 262c1884a1a0e7146ab62b53c52f65ad
+  - enabled: 0
+    path: Assets/Scenes/RosWLT.unity
+    guid: 3465d5af66aaeb947a92d98fa8f6f720
+  - enabled: 1
+    path: Assets/Scenes/HoloLight.unity
+    guid: 9fb5b701d106ce543bd348cb5728173e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8712e05a25f46d44c817f01dff1676d5, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: bf6f1c464fcc846418c0b8acc839e571, type: 2}

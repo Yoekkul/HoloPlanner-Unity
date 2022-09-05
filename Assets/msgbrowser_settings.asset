@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c444d6f85828f1b4f9b89c7c387f9ddd, type: 3}
   m_Name: msgbrowser_settings
   m_EditorClassIdentifier: 
-  inputPath: C:/Users/tibal/Desktop/rosUnity/src/leggedrobotics-m545_common-579294aea227/m545_msgs/msg
+  inputPath: C:/Users/tibal/Code/Unity-ROS-mediator/cat_ws/src/common_msgs-noetic-devel/visualization_msgs/msg
   relativeOutPath: RosMessages

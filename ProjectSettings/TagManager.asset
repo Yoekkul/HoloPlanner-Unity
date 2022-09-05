@@ -6,6 +6,7 @@ TagManager:
   tags:
   - robot
   - Node
+  - terrain
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Terrain
   - 
   - 
   - 
