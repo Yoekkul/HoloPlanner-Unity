@@ -11,3 +11,6 @@ The objects within the scene are setup with the following hierarchy:
 * 05_PoseMarkers: Contains two markers, which serve as target positions when moving the excavator showel via Inverse Kinematics
 * 07_HandMenu: The menu appears next to the raised hand (palm towards the user). It allows setting the Pose Markers, Toggling the visibility of the cab and Setting mesh-editing nodes.
 * 99_InstantiatedPrefabs: This contains prefabs which have values already instantiated. (Used to set the markers for terrasin editing)
+
+# Program Diagram
+<img src="img/diagram.jpeg" style="width:600px;  display: block; margin: auto;"/>
