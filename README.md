@@ -55,7 +55,7 @@ Contains two pose markers, which can be initially spawned (made active in front 
 
 `TerrainWarper.cs` takes the original mesh and Modifies it based on the positon of the editing nodes. It contains quite a few bugs and is quite unflexible (It has problems when markers are too far from the terrain, it only supports conical fixed angle edits, ...)
 
-** This section is at the second highest priority for a rework**
+**This section is at the second highest priority for a rework**
 
 ### 07_HandMenu
 Contains the hand menu, which appears when a user raises their palm, facing themselves.
