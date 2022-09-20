@@ -5,6 +5,8 @@
 
 ⚠️ Due to a bug in Microsofts WLT this project must be located in a root directory (Such as \C or \D)
 
+---
+
 The objects within the scene are setup with the following hierarchy:
 * MixedRealityToolkit: Used to setup [Microsofts MRTK](https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05). This handles the MR headset
 * 02_ROSConnections: Sends and receives messages from ROS
