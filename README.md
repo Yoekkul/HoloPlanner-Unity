@@ -1,7 +1,9 @@
 **This is the client part of a larger project. The remaining documentation can be found here: https://github.com/Yoekkul/Docs-MR-remote-for-HEAP**
 
 # HoloPlanner Unity client
-The project is located within the `HoloLight` Unity scene (the other scenes are kept as personal reminder of the path taken to reach the final version).
+⚠️ The project is located within the `HoloLight` Unity scene (the other scenes are kept as personal reminder of the path taken to reach the final version).
+
+⚠️ Due to a bug in Microsofts WLT this project must be located in a root directory (Such as \C or \D)
 
 The objects within the scene are setup with the following hierarchy:
 * MixedRealityToolkit: Used to setup [Microsofts MRTK](https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05). This handles the MR headset
